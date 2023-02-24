@@ -3,7 +3,7 @@
  * protected ---> de forma interna y se pueden heredar pero no modificar desde la instancia new ()
  */
 
-export class Animal {
+export abstract class Animal {
     constructor(protected name: string) {} 
   
     move() {
