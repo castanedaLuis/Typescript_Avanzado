@@ -10,6 +10,7 @@ import { Dog } from './09-protected';
 /**
  * TS va inferiri el tipado dependientdo de tipo qu ele pases
  * De igual forma le podemos decir cual tipo se va a manejar
+ * El nombre puede ser cualquier cosa, comun mente se utiliza <T>
  */
 function getValue<myType>(value: myType) {
   return value;
